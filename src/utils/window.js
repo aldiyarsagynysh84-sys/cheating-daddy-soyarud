@@ -5,6 +5,7 @@ const storage = require('../storage');
 let mouseEventsIgnored = false;
 
 const DEFAULT_MAIN_WINDOW_SIZE = { width: 320, height: 280 };
+const MIN_WINDOW_SIZE = { width: 500, height: 300 };
 
 function createWindow(sendToRenderer, geminiSessionRef) {
     let windowWidth = DEFAULT_MAIN_WINDOW_SIZE.width;
